@@ -62,10 +62,12 @@ th {
 }
 
 .delete-btn {
-  background: red;
+  background: rgb(70, 70, 70);
   color: white;
   padding: 3px 6px;
   border: none;
+  border-radius: 100%;
+  font-size: 10px;
 }
 
 #nav {
