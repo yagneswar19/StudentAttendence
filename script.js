@@ -36,7 +36,7 @@ function calculatePercentage(index) {
     let input = row.cells[i]?.querySelector("input");
     if (input) {
       let val = input.value.toUpperCase();
-      if (val === "P" || val === "Y") count++;
+      if (val === "P" || val === "L") count++;
     }
   }
   let perc = dates.length ? Math.round((count / dates.length) * 100) : 0;
