@@ -1,4 +1,4 @@
-let students = ["Yagnesh", "Shiva", "Surya", "Midhun"];
+let students = ["Yagnesh", "Shiva", "Surya", "Midhun","harshith","vivk","ravi","punith","chandu","pooja","sanjay","vinod",""];
 let dates = [];
 
 let tableBody = document.getElementById("tableBody");
