@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Attendance Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="nav">
+    <img src="school_logo.png" alt="School Logo" />
+  </div>
+
+  <h2>Attendance Tracker</h2>
+
+  <div class="controls">
+    <input type="text" id="studentNameInput" placeholder="Student name" />
+    <button onclick="addStudent()">Add</button>
+    <input type="date" id="datePicker" />
+    <button onclick="addDate()">Add Date</button>
+  </div>
+
+  <table id="attendanceTable">
+    <thead>
+      <tr id="headerRow">
+        <th>Name</th>
+        <th>%</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody">
+      <!-- Dynamic content -->
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
