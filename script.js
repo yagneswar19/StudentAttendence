@@ -9,11 +9,15 @@ tableBody.addEventListener("input", (e) => {
   if (e.target.tagName === "INPUT") {
     let input = e.target;
     let val = input.value.toUpperCase();
+
+    if (val === "Y") val = "L"; // Treat Y as L (Late)
+
     if (!["P", "A", "L"].includes(val)) {
       input.value = "";
       input.className = "";
       return;
     }
+
     input.value = val;
     input.className = val === "P" ? "present" : val === "A" ? "absent" : "late";
 
