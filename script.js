@@ -10,7 +10,7 @@ tableBody.addEventListener("input", (e) => {
     let input = e.target;
     let val = input.value.toUpperCase();
 
-    if (val === "L") val = "L"; 
+    if (val === "L") val = "L";
 
     if (!["P", "A", "L"].includes(val)) {
       input.value = "";
